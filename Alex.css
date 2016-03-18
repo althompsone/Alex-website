@@ -1,0 +1,78 @@
+/* I've tried to group and inset everything according to relatedness as best I can. */
+
+#entire{width:1050px; height:1350px; margin:auto; background-color:white;}
+		
+	#lefty{width:215px; height:1308px; background-color:#404040; position:absolute;}
+
+	#toppy{width:1050px; height:290px; background-color:#404040; position:absolute; top:7.5px;}
+		#scenePic{width:824px; height:240px; background-color:#404040; position:absolute; top:8px; right:11px;}
+			#bg{ width:824px; height:240px}
+
+		#nav{width:835px; height:32px; background-color:#989898; position:absolute; left:215px; bottom:0px;}
+
+			#nav1{width:120px; height:32px; background-color:#989898; position:absolute; left:0px; bottom:0px; text-align:center; vertical-align:middle; line-height:32px;}
+			
+			#nav2{width:120px; height:32px; background-color:#989898; position:absolute; left:120px; bottom:0px; text-align:center; vertical-align:middle; line-height:32px;}
+				
+				.ulDrop{list-style:none; visibility:hidden; z-index:9999; position:absolute; left:-40px; top:16px;
+				display: inline-block;}
+				
+				#nav2:hover .ulDrop{visibility:visible; display:block; opacity:1;}
+					.dropLi{display:block; width:120px; height:32px; background-color:#989898; left:0px; bottom:0px; line-height:32px;}
+					.dropLi:hover{background-color:#707070;}
+	  
+			#nav3{width:120px; height:32px; background-color:#989898; position:absolute; left:240px; bottom:0px; text-align:center; vertical-align:middle; line-height:32px;}
+			#nav4{width:120px; height:32px; background-color:#989898; position:absolute; left:360px; bottom:0px; text-align:center; vertical-align:middle; line-height:32px;}
+			#nav5{width:250px; height:32px; background-color:#989898; position:absolute; right:115px; bottom:0px;}
+				#linked{width:30px; height:25px; background-color:#989898; position:absolute; right:5px; bottom:2.5px;}
+				#linkedin{position:absolute; right:45px; bottom:6.8px; top;0px;}	
+			
+			#nav1:hover {background-color:#707070;}
+			#nav2:hover {background-color:#707070;}
+			#nav3:hover {background-color:#707070;}
+			#nav4:hover {background-color:#707070;}	
+			
+			a{color:black; text-decoration:none;}
+			
+		#hold{width:835px; height:1050px; background-color:white; position:absolute; top:308px; left:215px;}
+			
+			#facePic{width:205px; height:250px; background-color:white; position:absolute; top:12px; left:12px;*/}
+				#moi{position:absolute; left:5px; width:171.55px; height:229.69px;}
+			
+			
+			#mainText{width:550px; height:988px; padding:20px; padding-top:0px; padding-bottom:0px; background-color:#E0E0E0; position:absolute; top:12px; right:0px;}
+						
+				h1{font-size:130%; color:blue;}
+				h2{font-size:95%;}
+
+					.p3{font-size:95%; font-weight:normal;}
+
+					#cvdd{line-height:30px;}
+					#cvdd  li:hover{text-decoration:underline;}
+		
+				#formWrap{}
+
+					form{background-color:3366FF; display:block;}
+						fieldset{background-color:#F5F5F5; border:none;}
+
+							label{display:block;}
+							input{width:250px;}
+							textarea{width:250px; height:160px;}
+							#h11{font-size:100%; color:blue;}
+
+								.btn{width:100px;}
+				
+							.divRad{position:absolute; left:-40px;}
+								.radio{width:22px;}
+							
+							.divNum{position:absolute; left:85px;}	
+								.num{width:22px;}
+	
+						#rateWrap{background-color:#D3D3D3; height:200px; }
+	
+			#footer{width:1050px; height:40px; background-color:#E0E0E0; position:absolute; left:-215px; bottom:0px; text-align:center; line-height:40px;}
+		
+
+
+  
+  

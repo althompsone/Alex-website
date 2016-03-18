@@ -1,0 +1,4 @@
+AuthName "Please enter password"
+AuthType Basic
+AuthUserFile http://alexo-thompson.cuccfree.org/authfile.htpasswd
+require valid-user
